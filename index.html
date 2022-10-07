@@ -45,86 +45,153 @@
     </div>
     <!-- About Section -->
     <div id="about" class="mb-0 justify-content-center align-items-center">
-      <h2>About the Project</h2>
-      <p>The personas and Storyboarding project asks us to step into the shoes of the user of public
-        interfaces around campus. We observed real users interacting with our chosen interface, interviewed
-        these individuals about their experiences, create personas based on these users, and illustrate a storyboard for
-        one of your personas.
+      <h2 class="text-center">About the Project</h2>
+      <p class="text-center">The Personas and Storyboarding project is the first project in the course CSCI 1300.</p>
+      <br>
+      <p class="text-center">We were tasked with stepping into the shoes of a user of a choosen public
+        interface around Brown University's campus. We observed real users interacting with our chosen interface,
+        interviewed
+        these individuals about their experiences, created personas based on these users, and illustrated a storyboard
+        for
+        one of these personas.
       </p>
       <br>
+      <p class="text-center">I chose the Spin Scooter Interface!</p>
     </div>
 
     <!-- Interface Section -->
-    <div id="interface" class="d-flex mx-auto mb-0 justify-content-center align-items-center">
-      <h2>Spin Scooter Interface</h2>
+    <div id="interface" class="d-flex flex-column mx-auto mb-0 justify-content-center align-items-center">
+      <h2 class="col-md-6 text-center ">Spin Scooter Interface</h2>
       <br>
-      <img src="assets/SpinInterface.png" height="auto" width="500px">
-      <p>
-
+      <img class="col-md-6 mb-4" src="assets/SpinInterface.png" height="auto" width="500px">
+      <p class="col-md-6 mb-4">
+        This interface is one answer to the question: What makes an intuitive electric scooter interface?
+        <br>
+        Its key components are the handlebars, the qr code, the speedometer, the brake, and the bell.
+      <ul>
+        <li>The handlebars allow the user to steer the scooter, and maintain balance during the ride.</li>
+        <li>The qr code interacts with the Spin mobile app, allowing the user to unlock the scooter
+          or to alert the user that the scooter is damaged or has a low battery.</li>
+        <li>The speedometer simply tells the user how fast they’re currently moving.</li>
+        <li>The brake allows the user to slow down or bring the scooter to a complete stop.</li>
+        <li>Finally, the bell allows the user to alert bystanders and other vehicles or riders of their presence,
+          avoiding
+          potential accidents caused by a lack of awareness.</li>
+      </ul>
       </p>
     </div>
 
     <!-- Observation Section -->
-    <div id="observation" class="d-flex mb-0 justify-content-center align-items-center">
-      <h2>Observations</h2>
-      <p>
-        This section will discuss the Observations.
-      </p>
+    <div id="observation" class="d-flex flex-column mb-0 justify-content-center align-items-center">
+      <div class="col-md-6">
+        <h2 class="text-center mt-4">Observations</h2>
+        <br>
+      </div>
+      <div class="col-md-6">
+        <p class="mb-4">
+          There are a few broad observations I made regarding user interactions with the Spin scooter interface.
+          <br>
+        <ul>
+          <li>If a user hadn’t used the scooter before, they may try to push off without lifting the kickstand that
+            props the scooter up.</li>
+          <li>Every person who used the scooter during my observations could infer that their hands would go on the
+            handlebars.</li>
+          <li>Once their hands were on the handlebars, their left hand would naturally reach for the brake since it fits
+            snuggly into the hand. </li>
+          <li>The thumb can rest on the bell, so that was also easy for the user to discover.</li>
+        </ul>
+        <br>
+
+        There’s a big difference between older users and younger users. Younger users, like the college students that
+        occupy most of the campus, were familiar with qr codes, and quickly scanned them with their phones using the
+        Spin app, unlocking the scooter. Older users, however, were more likely to get stuck at the first step of
+        scanning the scooter’s code, likely because they weren’t familiar with the technology.
+
+        </p>
+      </div>
     </div>
 
     <!-- Personas Section -->
-    <div class="d-flex flex-column">
-      <div id="personas" class="d-flex mb-0 container-fluid justify-content-center align-items-center">
-        <h2 class="col-md-6 ">Personas</h2>
-
-        <!-- Cards -->
-
+    <div id="personas" class="d-flex flex-column mb-0 container-fluid justify-content-center align-items-center">
+      <!-- Heading Col -->
+      <div class="col-md-6">
+        <h2 class="text-center mt-4">Personas</h2>
+      </div>
+      <!-- Descriptive Paragraph -->
+      <div class="col-md-6">
+        <p class="text-center mt-4">
+          Based on these observations, I created empathy maps for two personas representing the primary populations: busy college students and unfamiliar elders.
+        </p>
+      </div>
+      <!-- Personas Col -->
+      <div class="row-md-6">
+        <!-- Row containing the cards -->
         <div class="row px-md-3 px-lg-5 pt-3 pt-md-5 justify-content-center">
+          <!-- First column card -->
           <div class="col-md-6 col-xl-5 col-xxl-4 mb-4">
             <div class="card h-100">
               <div class="card-header">
-                <h4>The 10-Year Study on Sleep</h4>
+                <h4>Aided Elder</h4>
               </div>
               <div class="card-body lead">
-                <p class="card-text">To learn what behaviors affect your sleep quality, a week is not enough. Even a
-                  month
-                  can only tell you one or two things about your habits.</p>
-                <p class="card-text">SleepCoacher will run for 10 years, so you as a user can optimize your sleep
-                  behaviors
-                  over a long series of mini-experiments. Start and stop each self-experiment whenever you please.</p>
-                <img src="./assets/AidedElder.png" style="max-width: 28rem; width: 100%;">
+                <p class="card-text">
+                  Composite of student responses
+                </p>
+                <br>
+                <p class="card-text">
+                  “A college junior that’s rushing to an important class they’re late for.”
+                </p>
+                <p>For the students, the main problem with the interface relates to how busy they are.
+                  When they're in a rush, it would be beneficial to tell when the scooter is broken
+                  or has low battery without opening the Spin app to avoid wasting time in their busy schedule.</p>
+                <p>Why & How the persona represents the users:</p>
+                <ul>
+                  <li>Most of the users of these scooters are busy college students.</li>
+                  <li>It wouldn’t represent the majority population in the area if this persona was left out</li>
+                </ul>
               </div>
             </div>
           </div>
-
+          <!-- First Image -->
+          <img src="./assets/AidedElder.png" style="max-width: 28rem; width: 50%; margin-bottom: 30px;">
+          <!-- Second Column Card -->
           <div class="col-md-6 col-xl-5 col-xxl-4 mb-4">
             <div class="card h-100">
               <div class="card-header">
-                <h4>The 10-Year Study on Sleep</h4>
+                <h4>Stressed Student</h4>
               </div>
               <div class="card-body lead">
-                <p class="card-text">To learn what behaviors affect your sleep quality, a week is not enough. Even a
-                  month
-                  can only tell you one or two things about your habits.</p>
-                <p class="card-text">SleepCoacher will run for 10 years, so you as a user can optimize your sleep
-                  behaviors
-                  over a long series of mini-experiments. Start and stop each self-experiment whenever you please.</p>
-
-                <img src="./assets/Stressed Student.png" style="max-width: 28rem; width: 100%;">
-
+                <p class="card-text">
+                  Composite of student responses
+                </p>
+                <br>
+                <p class="card-text">
+                  “A college junior that’s rushing to an important class they’re late for.”
+                </p>
+                <p>For the students, the main problem with the interface relates to how busy they are.
+                  When they're in a rush, it would be beneficial to tell when the scooter is broken
+                  or has low battery without opening the Spin app to avoid wasting time in their busy schedule.</p>
+                <p>Why & How the persona represents the users:</p>
+                <ul>
+                  <li>Most of the users of these scooters are busy college students.</li>
+                  <li>It wouldn’t represent the majority population in the area if this persona was left out</li>
+                </ul>
               </div>
             </div>
           </div>
+          <img src="./assets/Stressed Student.png" style="max-width: 28rem; width: 100%; margin-bottom: 30px;">
         </div>
       </div>
     </div>
     </div>
     <!-- Storyboard Section -->
     <div id="storyboard">
-      <h2>Storyboard</h2>
+      <h2 class="text-center ">Storyboard</h2>
       <p>
-        This section will discuss the interface.
+        Below I've created a slideshow to display my storyboards for the Aided Elder persona.
       </p>
+      <br>
+      <p>Press the right arrow to look at each frame.</p>
       <br>
       <div class="slideshow-container">
         <div class="mySlides">
